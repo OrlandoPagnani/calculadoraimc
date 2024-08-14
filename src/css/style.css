@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Grey+Qo&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --colorVerde: #185953;
+    --colorAmarelo: #A68A56;
+    --colorLaranja: #D99B66;
+    --colorVermelho: #A65E44;
+    --colorPreto: #0D0D0D;
+}
+
+body {
+    background-color: var(--colorVerde);
+}
+
+.titulo {
+    font-size: 5rem;
+    color: var(--colorAmarelo);
+    font-family: "Glass Antiqua", cursive;
+    text-shadow: 5px 4px 10px var(--colorPreto);
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.subTitulo {
+    font-size: 2rem;
+    color: var(--colorLaranja);
+    font-family: "Glass Antiqua";
+    text-align: center;
+    text-shadow: 4px 4px 10px var(--colorPreto);
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+label {
+    font-family: "Pacifico";
+    color: var(--colorPreto);
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 3px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px var(--colorPreto);
+}
+
+.button{
+    margin-top: 30px;
+    padding: 4px 10px; 
+    font-size: 4rem;
+    font-family: "Grey Qo";
+    cursor: pointer;
+}
+
+.resultado{
+    display: none;
+    width: 250px;
+    height: 250px;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
